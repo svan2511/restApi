@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /restApi
+RewriteRule ^users Controllers/user.php [NC,L] 
+RewriteRule ^login Controllers/Login.php [NC,L]
+RewriteRule ^posts Controllers/Posts.php [NC,L]
